@@ -10,7 +10,7 @@ export const Login = () => {
             <form>
                 <input 
                     type="text"
-                    placeholder="email"
+                    placeholder="Email"
                     name="email"
                     className="auth__input"
                     autoComplete="off"
@@ -23,6 +23,7 @@ export const Login = () => {
                 />
                 <button
                     type="submit"
+                    className="btn btn-primary btn-block"
                 >
                     Ingresar
                 </button>
@@ -40,7 +41,7 @@ export const Login = () => {
                         </p>
                     </div>
                 </div>
-                <Link to="/auth/register">
+                <Link to="/auth/register" className="link">
                     Crear cuenta
                 </Link>
             </form>
