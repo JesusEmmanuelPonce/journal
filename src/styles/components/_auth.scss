@@ -1,6 +1,9 @@
 .auth__main{
     align-items: center;
     background-color: $primary;
+    background-image: url('../../assets/auth/login-banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     margin: 0;
