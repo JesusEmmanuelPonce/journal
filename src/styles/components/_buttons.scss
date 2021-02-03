@@ -3,10 +3,14 @@
     border: none;
     color: $white;
     cursor: pointer;
-    font-size: 12px;
-    padding: 7px 10px 7px 10px;
+    font-size: 14px;
+    padding: 12px 15px;
+    transition: .3s ease;
     &:focus{
         outline: none;
+    }
+    &:hover{
+        color: darken($color: $white, $amount: 20)
     }
 }
 
