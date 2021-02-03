@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 export const Login = () => {
     return (
         <>
-            <h1 className="auth__title">
-                LoginScreen
-            </h1>
+            <h2 className="auth__title">
+                Iniciar Sesion
+            </h2>
             <form>
                 <input 
                     type="text"
