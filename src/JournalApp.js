@@ -1,9 +1,13 @@
 import React from 'react'
+import { Provider } from 'react-redux'
 import { AppRouter } from './components/routers/AppRouter'
+import { store } from './store/store'
 import './styles/style.scss'
 
 export const JournalApp = () => {
     return (
-        <AppRouter />
+        <Provider store={store}>
+            <AppRouter />
+        </Provider>
     )
 }
